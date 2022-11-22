@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+
+/*configurar toda la pagina*/
+*{
+
+    margin: 20;
+    padding: 30;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+
+/*configuraciones generales*/
+
+a{
+    text-decoration:none ;
+}
+
+ul{
+    list-style:none ;
+}
+
+body html{
+    overflow-x:hidden ;
+}
+
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+/*final de config generales*/
+
+/*header y titulos*/
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./imagenes/powerpuffgde1.png);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content{
+    height: 40%;
+    margin-bottom: 150px;
+    color:rgba(149, 20, 208, 0.957);
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.591);
+    border-radius: 10px;
+}
+
+.header-content h2{
+    font-size: 4vmin;
+}
+
+.line{
+    width: 150px;
+    height: 4px;
+    background-color:aqua ;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.ctn{
+    padding: 15px 20px;
+    background-color:whitesmoke;
+    border-radius: 50px;
+    color:rgba(149, 20, 208, 0.957);
+
+}
+/*final de header y titulos*/
+
+/*inicio de navbar*/
+.navbar{
+position:absolute;
+top: 0%;
+left: 0%;
+display: flex;
+width: 100%;
+justify-content: space-between;
+padding: 20px;
+color: rgb(242, 215, 250);
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 10px;
+}
+
+/*final de navbar*/
+
+
+
+/*segunda parte de la pagina*/
+.tittle{
+    text-align:left;
+   
+}
+
+.text{
+    display: flex;
+    align-items:flex-start ;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 50px;
+    font-size: 2vmin;
+}
+
+h1{
+    font-size: 3vmin;
+    color: #fc036b;
+    margin: 50px auto;
+}
+
+p{
+    color:#5c046e ;
+    padding: 0px 70px;
+
+}
+
+
+.img{
+    height: auto;
+    width: auto;
+    padding-left: 70px;
+
+}
+/*final de la segunda parte de la pagina*/
+
+
+/*inicio de la 3era parte de la pagina*/
+.explore{
+    width: 100vw;
+    height: 200vh;
+    background-image: url("./imagenes/imggrande5.png");
+    background-position:bottom;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.tittle2{
+align-items: center;
+padding-left: 40%;
+font-size: 70%;
+}
+
+.line{
+        margin-bottom: 50px;
+        align-items: center;
+        border-radius: 2px;
+}
+
+.explore-content p{
+        color: rgb(119, 14, 198);
+        font-style:oblique;
+        font-size: 2vmin;
+      width: 40%;
+      font-weight: bold;
+      text-align: left;
+        background-color: rgba(232, 176, 215, 0.683);
+        background-size: auto;
+        border-radius: 20px;
+}
+
+   
+
+/*final de la 3era parte de la pagina*/
+
+
+/*cuarta parte*/
+.tours {
+    margin-left: 250px;    
+}
+
+.content-col{
+    width: 40%;
+}
+
+
+.tours .row .col{
+    width: 50%;
+}
+
+div > div >img{
+    width: 250px;
+    padding: 10px;
+}
+
+.content-col h1{
+    font-size: 7vmin;
+    color: #b90fab;
+}
+
+
+.content-col p{
+    padding: 0;
+    margin: 30px auto;
+    font-size: 150%;
+}
+
+.ctn4{
+    padding: 15px 5px;
+    padding-left: 5px;
+    margin: 20px auto;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+/*final de la cuarta parte*/
+
+/*footer*/
+.footer{
+    width: 100%;
+    height: 150px;
+    padding: 20px 80px;
+    margin: 0;
+    background: #524b5a;
+    text-align: center;
+}
+
+.footer p{
+    color: whitesmoke;
+}

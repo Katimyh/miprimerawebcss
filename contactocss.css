@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+
+/*configurar toda la pagina*/
+*{
+    margin: 20;
+    padding: 30;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+
+
+/*configuraciones generales*/
+
+a{
+    text-decoration:none ;
+}
+
+ul{
+    list-style:none ;
+}
+
+body html{
+    overflow-x:hidden ;
+}
+
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+/*final de config generales*/
+
+/*header y titulos*/
+header{
+    width: 100vh;
+    height: 100vw;
+    background-color:rgb(233, 19, 19) ;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./imagenes/fondo3.jpg);
+
+}
+
+
+.header-content{
+    margin-bottom: 600px;
+    color:rgba(149, 20, 208, 0.957);
+    text-align:left;
+    padding-right: 60%;
+}
+
+.header-content h2{
+    font-size: 4vmin;
+}
+
+
+/*final de header y titulos*/
+
+/*inicio de navbar*/
+.navbar{
+position:absolute;
+top: 0%;
+left: 0%;
+display: flex;
+width: 100%;
+justify-content: space-between;
+padding: 20px;
+color: rgb(242, 11, 238);
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 10px;
+}
+
+/*final de navbar*/
+
+
+
+/*inicio formulario*/
+.btn{
+    border-radius: 3px;
+    display:block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(149, 20, 208, 0.957);
+    box-shadow: 0 1px 1px rgba(149, 20, 208, 0.957);
+    font-size: 20px;
+
+}
+
+.btn-pink{
+    color: antiquewhite;
+    background-color: deeppink;
+}
+
+.btn-pink:hover{
+    background-color: blueviolet;
+
+}
+.btn-pink:active{
+    background-color: black;
+}
+
+.form{
+    margin-left: 100px;
+    width: 300px;
+    padding: 100px;
+    border-radius: 3px;
+    font-size: 20px;
+   
+    
+   
+}
+
+input, textarea{
+    outline: none;
+    width: 280px;
+   
+}
+
+.field{
+    border: solid 1px #ccc;
+    padding: 10px;
+    width: 280px;
+    text-align:center;
+    justify-content:right;
+    
+
+}
+
+.field:focus{
+    border-color: deeppink;
+}
+
+.center-content{
+    text-align: center;
+}
+
+
